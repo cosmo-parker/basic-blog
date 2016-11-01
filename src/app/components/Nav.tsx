@@ -2,8 +2,14 @@ import * as React from 'react'
 import { Link } from 'react-router'
 
 export default () => (
-    <div className="nav">
-        <Link to="/home" activeClassName="active-link"> Home </Link>
-        <Link to="/about" activeClassName="active-link">About</Link>
-    </div>
+    <nav className="navbar navbar-dark bg-inverse">
+        <ul className="nav navbar-nav">
+            <li className="nav-item" >
+                <Link className="nav-link" activeClassName="active" to="/">Home</Link>
+            </li>
+            <li className="nav-item ">
+                <Link className="nav-link" activeClassName="active" to="/about">About</Link>
+            </li>
+        </ul>
+    </nav>
 )

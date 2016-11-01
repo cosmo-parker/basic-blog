@@ -3,7 +3,7 @@ import Header from './Header'
 import Nav from './Nav'
 
 export default (props: any) => (
-    <div>
+    <div className='container'>
         <Header />
         <Nav />
         <div>

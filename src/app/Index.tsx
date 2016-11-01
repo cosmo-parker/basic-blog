@@ -3,6 +3,6 @@ import Routes from './components/Routes'
 
 import '../css/site.css'
 
-const root_node = document.querySelector('#root')
+const root_node = document.getElementById('app')
 
 render(Routes, root_node)
