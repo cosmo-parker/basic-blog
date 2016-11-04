@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link } from 'react-router'
 
+
 export default () => (
     <nav className="navbar navbar-dark bg-inverse">
         <ul className="nav navbar-nav">
@@ -13,3 +14,5 @@ export default () => (
         </ul>
     </nav>
 )
+
+

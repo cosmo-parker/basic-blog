@@ -3,13 +3,13 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
 import App from './App'
 import Home from './Home'
-import About from './About'
+import SigninPage from './Signin/SigninPage'
 
 export default (
     <Router history={browserHistory}>
         <Route path="/" component={App} >
             <IndexRoute component={Home} />
-            <Route path="/about" component={About} />
+            <Route path="/signin" component={SigninPage} />
         </Route>
     </Router>
 )
